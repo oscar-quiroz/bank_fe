@@ -48,7 +48,7 @@ export default {
   methods: {
     processSignUp: function() {
       axios
-        .post("https://mision-tic-bank-be.herokuapp.com/user/", this.user, {
+        .post("https://mision-tic-bank-be-oq.herokuapp.com/user/", this.user, {
           headers: {},
         })
         .then((result) => {
